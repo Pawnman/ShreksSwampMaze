@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/ShrekMaze/Scenes/Level_1.unity
     guid: cff3ccf896ae5184b81219d96934f262
+  - enabled: 1
+    path: Assets/ShrekMaze/Scenes/GameOver.unity
+    guid: c04f3cb100d75de4fb8f39cd869f6c9f
   m_configObjects: {}

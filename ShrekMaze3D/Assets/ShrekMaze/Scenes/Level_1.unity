@@ -394,7 +394,7 @@ GameObject:
   - component: {fileID: 34484863}
   - component: {fileID: 34484862}
   m_Layer: 0
-  m_Name: EnemyStatic (5)
+  m_Name: EnemyStatic_George
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7236,7 +7236,7 @@ GameObject:
   - component: {fileID: 886548727}
   - component: {fileID: 886548726}
   m_Layer: 0
-  m_Name: EnemyStatic (1)
+  m_Name: EnemyStatic_Joe
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8493,7 +8493,7 @@ GameObject:
   - component: {fileID: 1021607383}
   - component: {fileID: 1021607382}
   m_Layer: 0
-  m_Name: EnemyStatic (2)
+  m_Name: EnemyStatic_Jack
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15519,7 +15519,7 @@ GameObject:
   - component: {fileID: 1913641354}
   - component: {fileID: 1913641353}
   m_Layer: 0
-  m_Name: EnemyStatic (3)
+  m_Name: EnemyStatic_Nick
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16340,7 +16340,7 @@ GameObject:
   - component: {fileID: 2002600907}
   - component: {fileID: 2002600906}
   m_Layer: 0
-  m_Name: EnemyStatic (4)
+  m_Name: EnemyStatic_Max
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17642,6 +17642,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrek
       objectReference: {fileID: 0}
+    - target: {fileID: 3620469381189788258, guid: f0a995672ad55014fb6366f80727dd8f, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 6295803340603363519, guid: f0a995672ad55014fb6366f80727dd8f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.73
@@ -17851,7 +17855,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1264316928213775113, guid: 5dac471b52c78b84f8a582427bc6839c, type: 3}
       propertyPath: m_Name
-      value: EnemyStatic
+      value: EnemyStatic_Obi
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
