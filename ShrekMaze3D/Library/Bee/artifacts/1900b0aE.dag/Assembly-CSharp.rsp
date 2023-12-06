@@ -367,6 +367,7 @@
 "Assets/ShrekMaze/Scripts/NewGame.cs"
 "Assets/ShrekMaze/Scripts/NextScene.cs"
 "Assets/ShrekMaze/Scripts/Sound.cs"
+"Assets/ShrekMaze/Scripts/ToLvl1.cs"
 -langversion:9.0
 
 /deterministic
