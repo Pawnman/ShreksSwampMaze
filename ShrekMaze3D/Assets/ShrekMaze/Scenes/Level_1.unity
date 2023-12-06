@@ -10546,6 +10546,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1240735627}
   - component: {fileID: 1240735626}
+  - component: {fileID: 1240735628}
   m_Layer: 0
   m_Name: FinishBlock
   m_TagString: Untagged
@@ -10589,6 +10590,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1240735628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240735625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7163cb641e252b49990538196c4c1b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1242023994
 GameObject:
   m_ObjectHideFlags: 0
@@ -19116,6 +19129,10 @@ PrefabInstance:
     - target: {fileID: 6295803340603363519, guid: f0a995672ad55014fb6366f80727dd8f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6620394234526350542, guid: f0a995672ad55014fb6366f80727dd8f, type: 3}
+      propertyPath: m_Height
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
