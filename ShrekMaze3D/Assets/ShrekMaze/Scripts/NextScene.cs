@@ -19,7 +19,7 @@ public class NextScene : MonoBehaviour
 
     void OnTriggerEnter(Collider myCollider)
     {
-        if (myCollider.gameObject.tag == ("Shrek"))
+        if (myCollider.gameObject.tag == ("Ball"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
