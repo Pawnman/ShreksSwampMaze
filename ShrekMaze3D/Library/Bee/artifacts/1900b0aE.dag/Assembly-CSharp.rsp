@@ -366,6 +366,7 @@
 "Assets/Maze_3D/Scripts/EnemyD.cs"
 "Assets/Maze_3D/Scripts/Shrek/BulletDamage.cs"
 "Assets/Maze_3D/Scripts/Shrek/HeroControll.cs"
+"Assets/Maze_3D/Scripts/Shrek/HeroStels.cs"
 "Assets/ShrekMaze/Scripts/AudioManager.cs"
 "Assets/ShrekMaze/Scripts/BulletCollisions.cs"
 "Assets/ShrekMaze/Scripts/InventoryUI.cs"
