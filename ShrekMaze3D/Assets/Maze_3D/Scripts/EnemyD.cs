@@ -31,22 +31,24 @@ public class EnemyD : MonoBehaviour
         distance = Vector3.Distance(transform.position, player.position);
         if (agent.transform.position == agent.pathEndPosition)
         {
+      
             TargetUpdate();
+           
         }
 
-        if (distance > 1)
+        if (distance > 1.5)
         {
             Walk();
             agent.SetDestination(targets[i].position);
         }
 
-        if (distance <= 1 & distance > 0.3)
+        if (distance <= 1.5 & distance > 0.7)
         {
             Walk();
             agent.SetDestination(player.position);
         }
 
-        if (distance < 0.3)
+        if (distance < 0.7)
         {
             Attack();
             //agent.SetDestination(targets[i].position);

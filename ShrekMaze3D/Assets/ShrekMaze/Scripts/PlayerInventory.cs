@@ -10,6 +10,7 @@ public class PlayerInventory : MonoBehaviour
 
     public UnityEvent<PlayerInventory> OnTableCollected;
 
+  
     public void TableCollected()
     {
         NumberOfTables++;
@@ -22,4 +23,6 @@ public class PlayerInventory : MonoBehaviour
        // }
         
     }
+
+   
 }
