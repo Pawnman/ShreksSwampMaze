@@ -18,7 +18,7 @@ public class TestH : MonoBehaviour
 
             if (hpForHero == 0)
             {
-                SceneManager.LoadScene(5);
+                SceneManager.LoadScene(6);
                 PlayerInventory.TP = 0;
             }
         }
