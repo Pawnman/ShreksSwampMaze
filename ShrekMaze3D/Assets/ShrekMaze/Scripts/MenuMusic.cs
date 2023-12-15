@@ -16,7 +16,7 @@ public class MenuMusic : MonoBehaviour
         }
         else
         {
-            this.gameObject.tag = this.createdTag;
+            //this.gameObject.tag = this.createdTag;
             DontDestroyOnLoad(this.gameObject);
         }
     }

@@ -13,7 +13,7 @@ public class NextLevel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(PlayerInventory.TP);
+        //Debug.Log(PlayerInventory.TP);
         if (PlayerInventory.TP == 6)
         {
             gameObject.SetActive(false);

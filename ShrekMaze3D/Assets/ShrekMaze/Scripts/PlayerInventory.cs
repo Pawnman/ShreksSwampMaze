@@ -16,11 +16,6 @@ public class PlayerInventory : MonoBehaviour
         NumberOfTables++;
         OnTableCollected.Invoke(this);
         PlayerInventory.TP += 1;
-
-       // if (NumberOfTables >= 5)
-       // {
-       //     TPointsScore.nextlvl = true;
-       // }
         
     }
 
