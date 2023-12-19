@@ -1,0 +1,1679 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ru' Physical Memory: 14188 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity Editor\2022.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/GitHub/ShreksSwampMaze/ShrekMaze3D
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+62856
+Successfully changed project path to: D:/GitHub/ShreksSwampMaze/ShrekMaze3D
+D:/GitHub/ShreksSwampMaze/ShrekMaze3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15056] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 2410904375 [EditorId] 2410904375 [Version] 1048832 [Id] WindowsEditor(7,LeMa) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15056] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 2410904375 [EditorId] 2410904375 [Version] 1048832 [Id] WindowsEditor(7,LeMa) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 4.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path D:/Unity Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/ShreksSwampMaze/ShrekMaze3D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3978 MB
+    Driver:   31.0.15.3197
+Initialize mono
+Mono path[0] = 'D:/Unity Editor/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editor/2022.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity Editor/2022.3.10f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/Unity Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008124 seconds.
+- Loaded All Assemblies, in  0.404 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 266 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.620 seconds
+Domain Reload Profiling: 1025ms
+	BeginReloadAssembly (116ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (169ms)
+		LoadAssemblies (115ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (165ms)
+				TypeCache.ScanAssembly (152ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (621ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (560ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (396ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (106ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.653 seconds
+Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.630 seconds
+Domain Reload Profiling: 1284ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (416ms)
+		LoadAssemblies (297ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (184ms)
+				TypeCache.ScanAssembly (166ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (631ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (452ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (316ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3184 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3651.
+Memory consumption went from 126.8 MB to 126.8 MB.
+Total: 3.851800 ms (FindLiveObjects: 0.256100 ms CreateObjectMapping: 0.117800 ms MarkObjects: 3.286400 ms  DeleteObjects: 0.189100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.402 seconds
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.803 seconds
+Domain Reload Profiling: 1204ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (169ms)
+		LoadAssemblies (239ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (804ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (397ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3162 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3654.
+Memory consumption went from 121.7 MB to 121.7 MB.
+Total: 3.016100 ms (FindLiveObjects: 0.284200 ms CreateObjectMapping: 0.101700 ms MarkObjects: 2.569200 ms  DeleteObjects: 0.059700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 438609.217202 seconds.
+  path: Assets/ShrekMaze/Fantasy Forest Environment Free Sample/StandardNoCulling.shader
+  artifactKey: Guid(717bc8f73d5aea64caef02a0c07b1e3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Fantasy Forest Environment Free Sample/StandardNoCulling.shader using Guid(717bc8f73d5aea64caef02a0c07b1e3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61606f4eef115328d007d2af80467f2a') in 0.149663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ShrekMaze/Scenes/Winner.unity
+  artifactKey: Guid(15bfb0f8679e297458fbebed80e7b4b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Scenes/Winner.unity using Guid(15bfb0f8679e297458fbebed80e7b4b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4583685e74833946366d15603fa155a') in 0.009460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ShrekMaze/Scripts/MainMenu.cs
+  artifactKey: Guid(48581d3997c7a564e952197809042a96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Scripts/MainMenu.cs using Guid(48581d3997c7a564e952197809042a96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5429eb06f69fee5a87ae5ceac5401899') in 0.012269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ShrekMaze/Scripts/MenuMusic.cs
+  artifactKey: Guid(3187736bbc856ba4eb8fbc049e7e0a52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Scripts/MenuMusic.cs using Guid(3187736bbc856ba4eb8fbc049e7e0a52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2ebb5ff45177039dec5d1e689ff536e') in 0.009080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ShrekMaze/Terrains/New Terrain 2.asset
+  artifactKey: Guid(521eeba875135a744a57b667ac8d4c5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Terrains/New Terrain 2.asset using Guid(521eeba875135a744a57b667ac8d4c5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9bfcfd61409157a94f729efda37f4539') in 0.045349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ShrekMaze/Prefabs/EnemyStatic_Joe.prefab
+  artifactKey: Guid(350b155b2725576459455ec2d024a47f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Prefabs/EnemyStatic_Joe.prefab using Guid(350b155b2725576459455ec2d024a47f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0d627ae35bc846e90f64b876d4c1c70') in 0.045260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 221
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ShrekMaze/Sprites/ShrekLogo.png
+  artifactKey: Guid(ea624c3ce7ef0f54e90ff1e44b89fffe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Sprites/ShrekLogo.png using Guid(ea624c3ce7ef0f54e90ff1e44b89fffe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7749747b5f1d102ab512c52059cd4a52') in 0.055002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ShrekMaze/Music/Sounds/TableUp.wav
+  artifactKey: Guid(0f983c58097b1c94e9ab511bb143420a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Music/Sounds/TableUp.wav using Guid(0f983c58097b1c94e9ab511bb143420a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6041c3117031b94235eb085d1326463c') in 0.040620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ShrekMaze/Music/Music/Smash Mouth - All Star.mp3.wav
+  artifactKey: Guid(2c117f009362654449dc225a336f0d3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Music/Music/Smash Mouth - All Star.mp3.wav using Guid(2c117f009362654449dc225a336f0d3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a958e457e1327329b71ed5a76572c04') in 0.039224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ShrekMaze/Scripts/Table.cs
+  artifactKey: Guid(d672e04f14b7b4e44b7e7e9e220be908) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Scripts/Table.cs using Guid(d672e04f14b7b4e44b7e7e9e220be908) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '306718916b113113c4adfa62e6fa0608') in 0.010887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ShrekMaze/Prefabs/TablePoints 1.prefab
+  artifactKey: Guid(b75d6ce3181004f42aca595027f180aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Prefabs/TablePoints 1.prefab using Guid(b75d6ce3181004f42aca595027f180aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c17c47464769e32b3d20d37375d7d124') in 0.061564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ShrekMaze/Scripts/NewGame.cs
+  artifactKey: Guid(fd2fe83e62581ad45ad6502ec1008810) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Scripts/NewGame.cs using Guid(fd2fe83e62581ad45ad6502ec1008810) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb4f6b0820398ef29d20869ec9892e9e') in 0.010502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ShrekMaze/Terrains/New Terrain.asset
+  artifactKey: Guid(31b4c0eac847650409f8c1c71c05584f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Terrains/New Terrain.asset using Guid(31b4c0eac847650409f8c1c71c05584f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b95e7d7a1ec99a56a34bc71bc8bbd422') in 0.020552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ShrekMaze/Scripts/PlayerMovement.cs
+  artifactKey: Guid(1706baa613091654685a42b5979c4b52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Scripts/PlayerMovement.cs using Guid(1706baa613091654685a42b5979c4b52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51e9071bcc4e717982ca18acee2a6969') in 0.011592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ShrekMaze/Prefabs/StartMenu/Directional Light.prefab
+  artifactKey: Guid(1bdab550ad91d104bbc18d6776774e9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Prefabs/StartMenu/Directional Light.prefab using Guid(1bdab550ad91d104bbc18d6776774e9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa285fcb65ba66440ce41a3185c72b33') in 0.018915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ShrekMaze/Prefabs/Level_1/Walking Variant.prefab
+  artifactKey: Guid(60e045f2300e57e4eaeb4fd7f0a4e87f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Prefabs/Level_1/Walking Variant.prefab using Guid(60e045f2300e57e4eaeb4fd7f0a4e87f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'acac57b868b29479186c6ac086e4d8fa') in 0.047651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 583
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ShrekMaze/Scenes/Level_2/NewLayer 1.terrainlayer
+  artifactKey: Guid(c7d7eb3aab30c6741862a3463ddbbe10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Scenes/Level_2/NewLayer 1.terrainlayer using Guid(c7d7eb3aab30c6741862a3463ddbbe10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8079c8746bb8168c8449f5b6cc002d82') in 0.011873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ShrekMaze/Scenes/Level_2/NewLayer.terrainlayer
+  artifactKey: Guid(2b6821a8b8ada784b8d3779562870c70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Scenes/Level_2/NewLayer.terrainlayer using Guid(2b6821a8b8ada784b8d3779562870c70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aabcb57823bf78d06e17e7acb861b6c7') in 0.010984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ShrekMaze/Prefabs/Story/Story.prefab
+  artifactKey: Guid(ebe90e7128a97474797392ae80dde08b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Prefabs/Story/Story.prefab using Guid(ebe90e7128a97474797392ae80dde08b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '036991d5b930783bc3e5518c479e9196') in 0.022231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ShrekMaze/Prefabs/Story/Directional Light.prefab
+  artifactKey: Guid(2806ff3d4496bb146b0f16cc261ddc0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Prefabs/Story/Directional Light.prefab using Guid(2806ff3d4496bb146b0f16cc261ddc0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8012f706a0b1b274561cfc71dd625f1') in 0.016401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ShrekMaze/Scenes/Level_2/NavMesh-NavMesh 1.asset
+  artifactKey: Guid(6c7b41ea99d2023468bf67e0fd75eb08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Scenes/Level_2/NavMesh-NavMesh 1.asset using Guid(6c7b41ea99d2023468bf67e0fd75eb08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '335c9264de5933610aa7820cfe306dbb') in 0.013922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ShrekMaze/Scenes/Level_2/Level_2.unity
+  artifactKey: Guid(9e23e4010e50e014fb2b76437be45246) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Scenes/Level_2/Level_2.unity using Guid(9e23e4010e50e014fb2b76437be45246) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '357fcc42f1110996d6de921ddba6b244') in 0.009772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ShrekMaze/Scripts/Sound.cs
+  artifactKey: Guid(f25de4e15a68ffe43a85e960b03a9a9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Scripts/Sound.cs using Guid(f25de4e15a68ffe43a85e960b03a9a9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69d4317db28ce933d1bb057433ed71de') in 0.014127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ShrekMaze/Fantasy Forest Environment Free Sample/Materials/grass01_b.mat
+  artifactKey: Guid(faaa2cb2e8bf2eb47a4b1b5faa568719) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Fantasy Forest Environment Free Sample/Materials/grass01_b.mat using Guid(faaa2cb2e8bf2eb47a4b1b5faa568719) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '260b3590efdfe91573f3e88092816fca') in 0.027913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ShrekMaze/Prefabs/Level_1/Tables.prefab
+  artifactKey: Guid(32d04b0f9c24a3c49b4c615b3d2befaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Prefabs/Level_1/Tables.prefab using Guid(32d04b0f9c24a3c49b4c615b3d2befaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '064dd4a16d36a3207ee3b5e270136cda') in 0.017807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 136
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ShrekMaze/Models/Prefabs/Table.prefab
+  artifactKey: Guid(0fc8b914aad2b2547bfe1b11c5c2fd2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Models/Prefabs/Table.prefab using Guid(0fc8b914aad2b2547bfe1b11c5c2fd2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f83694c2038a7e13e067893810e15c5') in 0.020840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ShrekMaze/Prefabs/Level_1/Main Camera Variant.prefab
+  artifactKey: Guid(53e9d7e002ce39c498d2407a10e44140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Prefabs/Level_1/Main Camera Variant.prefab using Guid(53e9d7e002ce39c498d2407a10e44140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40c8cd727579a75e461f2735017afa9d') in 0.025977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ShrekMaze/Prefabs/Level_1/Toilet Variant.prefab
+  artifactKey: Guid(823fff6505185e243b9a9f9865562bb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Prefabs/Level_1/Toilet Variant.prefab using Guid(823fff6505185e243b9a9f9865562bb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e2a485f9fb1bd579ce560b964a30afa') in 0.019299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 138
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ShrekMaze/Scenes/Story.unity
+  artifactKey: Guid(fd78b38c33f66b64782bbdeca89c94c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Scenes/Story.unity using Guid(fd78b38c33f66b64782bbdeca89c94c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e88679ac02de9b8b73fce7d7fd0c316a') in 0.011609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ShrekMaze/Scenes/Test.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Scenes/Test.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2849f1ef03212bc0653bf0b32f5861fa') in 0.010527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ShrekMaze/Fantasy Forest Environment Free Sample/Textures/tree_branches.png
+  artifactKey: Guid(1d49d1e2d8a2b97478e3e0355dbf3a07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Fantasy Forest Environment Free Sample/Textures/tree_branches.png using Guid(1d49d1e2d8a2b97478e3e0355dbf3a07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ece6b772e82c70c91780c96ac900f7ae') in 0.024939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ShrekMaze/Sprites/Backgrounds/ShrekHouseInside.png
+  artifactKey: Guid(2738b00564d91ea4aa4d0702407ccc6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Sprites/Backgrounds/ShrekHouseInside.png using Guid(2738b00564d91ea4aa4d0702407ccc6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '900b4a8da8ddcc0894904c9c17bdc2e7') in 0.027426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ShrekMaze/Prefabs/Level_1/======SCENE=======.prefab
+  artifactKey: Guid(5ea1ffefe01cdd54e9f7985500b44e4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Prefabs/Level_1/======SCENE=======.prefab using Guid(5ea1ffefe01cdd54e9f7985500b44e4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '943d563ab8bdc2e1f74685f172de88c7') in 0.011237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/ShrekMaze/Prefabs/TablePoints.prefab
+  artifactKey: Guid(98422c5d736868b4586f2eef70273212) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Prefabs/TablePoints.prefab using Guid(98422c5d736868b4586f2eef70273212) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd5e560f7b86f8f47cc2b7f2ced8b7ef2') in 0.031994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ShrekMaze/Prefabs/Level_1/AudioManager.prefab
+  artifactKey: Guid(350bbbf8ee5834a47aa537fe08aef339) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Prefabs/Level_1/AudioManager.prefab using Guid(350bbbf8ee5834a47aa537fe08aef339) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd14a1f2696312f02cde132db5e13622c') in 0.011841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ShrekMaze/Music/Music/shrek_02. Smash Mouth - I'm A Believer.mp3.wav
+  artifactKey: Guid(1c98f6bbe1a9cc24bb16de92873d7637) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Music/Music/shrek_02. Smash Mouth - I'm A Believer.mp3.wav using Guid(1c98f6bbe1a9cc24bb16de92873d7637) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2521a15b5a40f92f6eaddf6d2ed47685') in 0.045127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ShrekMaze/Prefabs/Main Camera.prefab
+  artifactKey: Guid(eeb37d28ec62d9f47ac3d8207a17049d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Prefabs/Main Camera.prefab using Guid(eeb37d28ec62d9f47ac3d8207a17049d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0750e797c839b087bb96a5d37ac2e797') in 0.012996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ShrekMaze/Sprites/GameOver/OU.png
+  artifactKey: Guid(32943b9423a076843bd5eb40c6718565) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Sprites/GameOver/OU.png using Guid(32943b9423a076843bd5eb40c6718565) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dcc52e543198659e10ccb34fe8c1bacd') in 0.033313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ShrekMaze/Models/Character/Walking.fbx
+  artifactKey: Guid(ebffaf3b7e0069846be9b0fe94f3746e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Models/Character/Walking.fbx using Guid(ebffaf3b7e0069846be9b0fe94f3746e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2cbceff0beb08ac6c18281bfce8fbfa0') in 0.086286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 294
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ShrekMaze/Scenes/GameOver.unity
+  artifactKey: Guid(c04f3cb100d75de4fb8f39cd869f6c9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Scenes/GameOver.unity using Guid(c04f3cb100d75de4fb8f39cd869f6c9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58b17a278fa39be9fd99898cfe429f4f') in 0.011942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe1aa33af32561b977f7a5fcf476f2cb') in 0.010960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/ShrekMaze/Models/Character/Textures/shrekbody.png
+  artifactKey: Guid(79f26ff7536478542b3a6aae7649a2e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Models/Character/Textures/shrekbody.png using Guid(79f26ff7536478542b3a6aae7649a2e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f038581e6694053b44f5bc7f4284a7d8') in 0.023297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '727c2dd4f400485355769ccf758c27d4') in 0.010965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'abe6c28d25959e59b37f7b26da1f1f00') in 0.015182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ShrekMaze/Models/Character/Animations/Scream.fbx
+  artifactKey: Guid(969434e6e4d603b4a9fcfa993d2cd082) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Models/Character/Animations/Scream.fbx using Guid(969434e6e4d603b4a9fcfa993d2cd082) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb699dd07394c3bcc9e0d43185fa8203') in 0.030160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 266
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ShrekMaze/Models/Character/Materials/shrekball.mat
+  artifactKey: Guid(0b3c77d16e5730741a6b8cb5dca77ac0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Models/Character/Materials/shrekball.mat using Guid(0b3c77d16e5730741a6b8cb5dca77ac0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f0efbe67e310025ee716d3e3f68fa3f5') in 0.015145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ShrekMaze/Models/Bonus/Materials/lambert1_albedo.mat
+  artifactKey: Guid(844e25c25951d8443bdb8248dc11e9d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Models/Bonus/Materials/lambert1_albedo.mat using Guid(844e25c25951d8443bdb8248dc11e9d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '225e79b281a467c9093e1da9fcb742df') in 0.017240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ShrekMaze/Models/Bonus/Textures/lambert2_albedo.jpeg
+  artifactKey: Guid(e21bdb7de462da44a9e569b332e5ac6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Models/Bonus/Textures/lambert2_albedo.jpeg using Guid(e21bdb7de462da44a9e569b332e5ac6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8232a122eb116323227f4429fb9d2547') in 0.027969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ShrekMaze/Models/Prefabs/Toilet/Toilet.dae
+  artifactKey: Guid(10271778e97b99d4294a24f0414d2b06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Models/Prefabs/Toilet/Toilet.dae using Guid(10271778e97b99d4294a24f0414d2b06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45392c343ba1254ef4a393e180cb1943') in 0.045936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1fb2421ae2eddda659e0a003da26cbf') in 0.014389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3ec68120e2501851281ef8675f4c6cb') in 0.019873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0920ad86e4591b291e841af9f4d589d') in 0.020613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ShrekMaze/Models/Character/Animations/NewLayer.terrainlayer
+  artifactKey: Guid(b84f6a58244627949abf71ba4e6c4137) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Models/Character/Animations/NewLayer.terrainlayer using Guid(b84f6a58244627949abf71ba4e6c4137) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d11f83619a7d383608a73071ee2b852') in 0.014644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ShrekMaze/Models/Prefabs/Bush_2/bush square.obj
+  artifactKey: Guid(6c2230827efe196459600c98644fcfe7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Models/Prefabs/Bush_2/bush square.obj using Guid(6c2230827efe196459600c98644fcfe7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4ef7004b7ad869e64d4fd26d2aed306') in 0.039616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e2a74ff9b59f18bf4d4c2e68c27b9ee') in 0.039060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ShrekMaze/Prefabs/Story/Main Camera.prefab
+  artifactKey: Guid(2246250542e98d8458f76b3651d43114) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Prefabs/Story/Main Camera.prefab using Guid(2246250542e98d8458f76b3651d43114) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6d7f3fa7278e301a00e555f6ead9a35') in 0.012967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ShrekMaze/Prefabs/Table Variant.prefab
+  artifactKey: Guid(a8dc7c779a1b80149b3a0dc26e2206b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Prefabs/Table Variant.prefab using Guid(a8dc7c779a1b80149b3a0dc26e2206b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba778037901f4889209ea1653dfa99fb') in 0.016668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ShrekMaze/Prefabs/Level_1/Enemy (11).prefab
+  artifactKey: Guid(9afa1befa20fa9f4c856300e44fc4412) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Prefabs/Level_1/Enemy (11).prefab using Guid(9afa1befa20fa9f4c856300e44fc4412) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea8e86888c69750166ada9aee25c850b') in 0.019891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 211
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ShrekMaze/Prefabs/Audio Source.prefab
+  artifactKey: Guid(c6497039423bfa142904014814415c96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Prefabs/Audio Source.prefab using Guid(c6497039423bfa142904014814415c96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb6cec1a669f571349dc331355a469dc') in 0.016983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82824ee1928b481b3bc291beaecb49e2') in 0.015751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ShrekMaze/Scripts/EnemyUI.cs
+  artifactKey: Guid(b32e4177635260f41be646a7afc22871) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Scripts/EnemyUI.cs using Guid(b32e4177635260f41be646a7afc22871) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee38097c10d0ba5f16cfad7348846df7') in 0.012781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ShrekMaze/Scripts/NextScene.cs
+  artifactKey: Guid(9ca0033eb92b9434d83c17eea954fb47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Scripts/NextScene.cs using Guid(9ca0033eb92b9434d83c17eea954fb47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '243ef8a6d13fefca176cfae20faa673e') in 0.012050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ShrekMaze/Scripts/TestH.cs
+  artifactKey: Guid(50fdc55c21944404dba76e583a32acbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Scripts/TestH.cs using Guid(50fdc55c21944404dba76e583a32acbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd51a757ee56e742a547893759f9f2a78') in 0.011977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ShrekMaze/Models/Character/Animations/NewLayer 2.terrainlayer
+  artifactKey: Guid(7077b9644e3641445add9bd118a4c0cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Models/Character/Animations/NewLayer 2.terrainlayer using Guid(7077b9644e3641445add9bd118a4c0cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa05931e0180c096f856160a04c39e8e') in 0.012726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ShrekMaze/Sprites/Table.png
+  artifactKey: Guid(c0ee71ef99f5cbb45a4fcee3dac151a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Sprites/Table.png using Guid(c0ee71ef99f5cbb45a4fcee3dac151a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3b915f4f1a132ed80713ff1830e205f') in 0.034596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ShrekMaze/Prefabs/EnemyPoints.prefab
+  artifactKey: Guid(0b2d1139ca600df42b9b2a52e1e9aa22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Prefabs/EnemyPoints.prefab using Guid(0b2d1139ca600df42b9b2a52e1e9aa22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40c1adf119c96e9dfd6c7363f5e49dd3') in 0.031418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat
+  artifactKey: Guid(22262639920f43d6be32430e4e58350d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat using Guid(22262639920f43d6be32430e4e58350d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '554f8abcc187af72b3676e8bfb7617a7') in 0.011913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs
+  artifactKey: Guid(91b8ba3d52e041fab2d0e0f169855539) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs using Guid(91b8ba3d52e041fab2d0e0f169855539) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d875b786317b79c992f71e62b241f7f') in 0.012870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs
+  artifactKey: Guid(43bcd35a1c0c40ccb6d472893fe2093f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs using Guid(43bcd35a1c0c40ccb6d472893fe2093f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c3471a63d7f3e0f149e8fc7074b66ce') in 0.012686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs
+  artifactKey: Guid(2787a46a4dc848c1b4b7b9307b614bfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs using Guid(2787a46a4dc848c1b4b7b9307b614bfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa485737567252bab3ea255ef8a4e014') in 0.010714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab
+  artifactKey: Guid(a6e39ced0ea046bcb636c3f0b2e2a745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab using Guid(a6e39ced0ea046bcb636c3f0b2e2a745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab1859d4bf2e634a863b6c2506ab4326') in 0.054108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs
+  artifactKey: Guid(103e0a6a1d404693b9fb1a5173e0e979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs using Guid(103e0a6a1d404693b9fb1a5173e0e979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '681f57c7ac38ffc70c671b0ce8e22d72') in 0.009735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs
+  artifactKey: Guid(ac1eb05af6d391b4eb0f4c070a99f1d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs using Guid(ac1eb05af6d391b4eb0f4c070a99f1d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '22bd1167f2ee19b74cbff169758abd28') in 0.010834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs
+  artifactKey: Guid(dc20866c0d5e413ab7559440e15333ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs using Guid(dc20866c0d5e413ab7559440e15333ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd7982c31f17b2f344858bb0daa4aa616') in 0.012193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs
+  artifactKey: Guid(2ed57967c52645d390a89dcf8f61ba73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs using Guid(2ed57967c52645d390a89dcf8f61ba73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6eec1823e6c34f9bdb1d7c3be7825767') in 0.011192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+  artifactKey: Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF using Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '076f2e1c9755f229c4a960daae12db80') in 0.015333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs
+  artifactKey: Guid(a05dcd8be7ec4ccbb35c26219884aa37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs using Guid(a05dcd8be7ec4ccbb35c26219884aa37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4ef38d49988152527dce219faf1fbdc') in 0.012140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs
+  artifactKey: Guid(d736ce056cf444ca96e424f4d9c42b76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs using Guid(d736ce056cf444ca96e424f4d9c42b76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '734d202749c19bf4f4701f189545aad9') in 0.014434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/ShrekMaze/Scripts/Scripts/Shrek/BulletDamage.cs
+  artifactKey: Guid(3d3c0599c6aba884b99b37cfbf578e7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Scripts/Scripts/Shrek/BulletDamage.cs using Guid(3d3c0599c6aba884b99b37cfbf578e7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1861e612624e97a2300a2db2d0a75696') in 0.012086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs
+  artifactKey: Guid(f970ea55f9f84bf79b05dab180b8c125) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs using Guid(f970ea55f9f84bf79b05dab180b8c125) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0942be46d446a5ae1db1cdbb7140aae2') in 0.012245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs
+  artifactKey: Guid(9eff140b25d64601aabc6ba32245d099) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs using Guid(9eff140b25d64601aabc6ba32245d099) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4737573a4309558eeee62c1b6b5ae1f2') in 0.010795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs
+  artifactKey: Guid(4f19c7f94c794c5097d8bd11e39c750d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs using Guid(4f19c7f94c794c5097d8bd11e39c750d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5de6a72a0b611ac7566d044290a4638d') in 0.012717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002064 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab
+  artifactKey: Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab using Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb08199165ba447d40e5783973065824') in 0.048646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
+  artifactKey: Guid(997a43b767814dd0a7642ec9b78cba41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf using Guid(997a43b767814dd0a7642ec9b78cba41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b6479a1a81f3b488d43502315cfc4e3') in 0.017257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs
+  artifactKey: Guid(c3c1afeda5e545e0b19add5373896d2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs using Guid(c3c1afeda5e545e0b19add5373896d2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cddc43760747b19c3bbeef3fc72c85b') in 0.014580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ShrekMaze/Sprites/Безымянный-1.png
+  artifactKey: Guid(e1c20a0ce3d73494fa25d75a7f0aa578) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Sprites/Безымянный-1.png using Guid(e1c20a0ce3d73494fa25d75a7f0aa578) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ead0f133f592ebff937bc994c6dbd3b7') in 0.028726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ShrekMaze/Prefabs/Table.prefab
+  artifactKey: Guid(1b59f454c31b2c94c8e97303a2e69d55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Prefabs/Table.prefab using Guid(1b59f454c31b2c94c8e97303a2e69d55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3c1ba2ce1820ba90f8a6b0ea1cc1808') in 0.014450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs
+  artifactKey: Guid(a73109742c8d47ac822895a473300c29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs using Guid(a73109742c8d47ac822895a473300c29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8087a0c640bc3f0620403bbb54e4a962') in 0.013467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '543aecad200d73c093e272de301faa9d') in 0.017017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ShrekMaze/Sprites/Buttons/StartButton.png
+  artifactKey: Guid(fd3d6e48fe716634592e64766e8fbc83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Sprites/Buttons/StartButton.png using Guid(fd3d6e48fe716634592e64766e8fbc83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f8037ce059974196b5f42ad146917921') in 0.026402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ShrekMaze/Scripts/Scripts/EnemyD.cs
+  artifactKey: Guid(bd0fd677b08a0174da6cb944f0943b80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Scripts/Scripts/EnemyD.cs using Guid(bd0fd677b08a0174da6cb944f0943b80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf1e1c32b24f8d5d62ddc6115860d088') in 0.013660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ShrekMaze/Models/Bonus/Materials/lambert2_albedo.mat
+  artifactKey: Guid(e3ad7ff3c342af148916df78df379805) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Models/Bonus/Materials/lambert2_albedo.mat using Guid(e3ad7ff3c342af148916df78df379805) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aea4f6f35909fe8006cec5b924dc3292') in 0.014439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ShrekMaze/Sprites/Backgrounds/Winner.png
+  artifactKey: Guid(b1f9335b4ba71cd468815b18ed549eff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Sprites/Backgrounds/Winner.png using Guid(b1f9335b4ba71cd468815b18ed549eff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55ffcedf9919aca9b5cf1e93e650f0bf') in 0.023888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ShrekMaze/Prefabs/FinishBlock.prefab
+  artifactKey: Guid(ef79c5d2fd976d540908217839e2fc2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Prefabs/FinishBlock.prefab using Guid(ef79c5d2fd976d540908217839e2fc2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f15a5126cc2fdbb330a4af218aed25a6') in 0.015099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ShrekMaze/Prefabs/Enemy_2.prefab
+  artifactKey: Guid(b9e65fe9bf84a8849b8ed8b4b2c5e880) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Prefabs/Enemy_2.prefab using Guid(b9e65fe9bf84a8849b8ed8b4b2c5e880) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '37ca413edcb9b599e3f3f6871e17f467') in 0.040859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs
+  artifactKey: Guid(f7cfa58e417a46ea8889989684c2522e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs using Guid(f7cfa58e417a46ea8889989684c2522e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '270f1fd0e1f9c4581a23661b189b0925') in 0.012021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ShrekMaze/Models/Prefabs/Bush_2/Materials/Part11_diff.mat
+  artifactKey: Guid(2bf59f8e364b087488cfdd3461e50c5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Models/Prefabs/Bush_2/Materials/Part11_diff.mat using Guid(2bf59f8e364b087488cfdd3461e50c5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e384157d5f9fd3af582e2d53c8568dbe') in 0.012503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset
+  artifactKey: Guid(69a525efa7e6472eab268f6ea605f06e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset using Guid(69a525efa7e6472eab268f6ea605f06e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '809ed311178bb311be470e56a759e5a1') in 0.012823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd
+  artifactKey: Guid(fd09957580ac4326916010f1f260975b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd using Guid(fd09957580ac4326916010f1f260975b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2239bcb158ee581a284bb2a15e916403') in 0.035605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs
+  artifactKey: Guid(e4e0d9ccee5f4950be8979268c9014e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs using Guid(e4e0d9ccee5f4950be8979268c9014e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f1ebeb5a1e2a9af936bf922e696c921') in 0.013277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat
+  artifactKey: Guid(f629c6e43dba4bf38cb74d8860150664) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat using Guid(f629c6e43dba4bf38cb74d8860150664) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e3468869fe6b0a9c60146852ba075ee') in 0.016631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ShrekMaze/Models/Enemy/tree-monster/source/TreeMons(SubApplied)(ActionEditorApplied).fbx
+  artifactKey: Guid(dc9920571aa30aa488c74e7c6d9312cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Models/Enemy/tree-monster/source/TreeMons(SubApplied)(ActionEditorApplied).fbx using Guid(dc9920571aa30aa488c74e7c6d9312cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df555adf18a1510591a0bd93e31e6f5f') in 0.050637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 208
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ShrekMaze/Models/Enemy/Enemy_2/Animation/StaticEnemy_2.controller
+  artifactKey: Guid(0de668c682834f94c9158e19330913e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Models/Enemy/Enemy_2/Animation/StaticEnemy_2.controller using Guid(0de668c682834f94c9158e19330913e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '32272308f4712f7c80b0af865694f830') in 0.035023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat
+  artifactKey: Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat using Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f4823585ddcd535aa3a471956e9fe34') in 0.030032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ShrekMaze/Models/Enemy/Enemy_1/source/TreeMons(SubApplied)(ActionEditorApplied) 1.fbx
+  artifactKey: Guid(1983ff29a8b04fd478c9c3148dc78ac6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Models/Enemy/Enemy_1/source/TreeMons(SubApplied)(ActionEditorApplied) 1.fbx using Guid(1983ff29a8b04fd478c9c3148dc78ac6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c2e791f005251c320e2bc58589e4d7c2') in 0.141182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 217
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ShrekMaze/Models/Enemy/Enemy_1/source/Materials/TreePrefMat 1.mat
+  artifactKey: Guid(d165bef553952c74bac798a4115f17d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Models/Enemy/Enemy_1/source/Materials/TreePrefMat 1.mat using Guid(d165bef553952c74bac798a4115f17d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae404732c396bedd771249bb5de43ea7') in 0.014812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat
+  artifactKey: Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat using Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6cf639fea6fa7dd0732289a2e1174c75') in 0.018642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat
+  artifactKey: Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat using Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0878e1e2016138437d05a6f1b4d284ee') in 0.034273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ShrekMaze/Models/Prefabs/Bush_1/bush/bush.FBX
+  artifactKey: Guid(32b81731a199e534aa0bd26707504f98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Models/Prefabs/Bush_1/bush/bush.FBX using Guid(32b81731a199e534aa0bd26707504f98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3593a947c7895732d2e2c3f788b15595') in 0.029642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs
+  artifactKey: Guid(790744c462254b7ba8038e6ed28b3db2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs using Guid(790744c462254b7ba8038e6ed28b3db2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06b0299d90bfb52434b59cc8fcec4964') in 0.013484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
+  artifactKey: Guid(a0fc465d6cf04254a2938578735e2383) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png using Guid(a0fc465d6cf04254a2938578735e2383) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5482b9be20f6c905ee88f8912637cfdc') in 0.045428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ShrekMaze/Models/Enemy/Enemy_2/Animation/attack.anim
+  artifactKey: Guid(9dde638d541f66c49861089e5ed60dc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Models/Enemy/Enemy_2/Animation/attack.anim using Guid(9dde638d541f66c49861089e5ed60dc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78a3e34e5d5b22aac89767d3a321a028') in 0.021011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset
+  artifactKey: Guid(5cf8ae092ca54931b443bec5148f3c59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset using Guid(5cf8ae092ca54931b443bec5148f3c59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f8e5f85915f71dc836a64c4bd2622286') in 0.011507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce5a83b683199077dc2dd2f71da4a18d') in 0.013084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a39761d0cb135ca419d60b2b7827ac1') in 0.048872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ShrekMaze/Models/Prefabs/Bush_1/bush/bush_diffuseOriginal.png
+  artifactKey: Guid(269ef1573485c7d4d8b58a4217949630) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Models/Prefabs/Bush_1/bush/bush_diffuseOriginal.png using Guid(269ef1573485c7d4d8b58a4217949630) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3fd883cb3044a17c43ae30b26c605b33') in 0.025075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ShrekMaze/Models/Prefabs/Toilet/textures/lambert1_roughness.jpg
+  artifactKey: Guid(95a6fdaa5a8b23149a598fa32a520d68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Models/Prefabs/Toilet/textures/lambert1_roughness.jpg using Guid(95a6fdaa5a8b23149a598fa32a520d68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57ec8241610c9a419db81caeb6f19bd6') in 0.024778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat
+  artifactKey: Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat using Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f14afae2c6b69d8d1a3caad742daf650') in 0.026380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ShrekMaze/Prefabs/Scream.prefab
+  artifactKey: Guid(035199a58e074b540802c847bce1e367) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Prefabs/Scream.prefab using Guid(035199a58e074b540802c847bce1e367) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9da798dec59c84396c442ed8a0cba24f') in 0.017382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ShrekMaze/Models/Character/Animations/Standing W_Briefcase Idle (1).fbx
+  artifactKey: Guid(a2f306b66e435da4eb5c2a37e2f9747d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Models/Character/Animations/Standing W_Briefcase Idle (1).fbx using Guid(a2f306b66e435da4eb5c2a37e2f9747d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f32baa541bf323044a21d1d4d7d664db') in 0.039366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 266
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ShrekMaze/Fantasy Forest Environment Free Sample/Textures/NewLayer 3.terrainlayer
+  artifactKey: Guid(f719c5a44df198b43ab1c6e3fe7c80c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Fantasy Forest Environment Free Sample/Textures/NewLayer 3.terrainlayer using Guid(f719c5a44df198b43ab1c6e3fe7c80c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9113580ee641d0dabc865d6e6a674c2c') in 0.015634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ShrekMaze/Prefabs/Wall.prefab
+  artifactKey: Guid(985ab0afaf7bdb849ae761ce791d8dc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Prefabs/Wall.prefab using Guid(985ab0afaf7bdb849ae761ce791d8dc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0481c8bddfa480e2ac3e0837d0f2c547') in 0.015462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ShrekMaze/Sprites/GameOver/Tr.png
+  artifactKey: Guid(dfd4ab8638b1d994bb2d795b799aac09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Sprites/GameOver/Tr.png using Guid(dfd4ab8638b1d994bb2d795b799aac09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d26f636707c2d476391a4b93d619aef') in 0.026746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18c1c2f3cb865b440a2c2d58af021b4f') in 0.010125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ShrekMaze/Terrains/New Terrain 1.asset
+  artifactKey: Guid(958170ce3231d154fa946fca0236dac0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Terrains/New Terrain 1.asset using Guid(958170ce3231d154fa946fca0236dac0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e22e2f2da028b4157007a874ec6033b8') in 0.017793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ShrekMaze/Fantasy Forest Environment Free Sample/Textures/NewLayer.terrainlayer
+  artifactKey: Guid(f39b39c5f355f3c49b201a16875b13df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Fantasy Forest Environment Free Sample/Textures/NewLayer.terrainlayer using Guid(f39b39c5f355f3c49b201a16875b13df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31a950cd4150a3b0df1a42b5f32bef86') in 0.011220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ShrekMaze/Music/Music/Smash Mouth - All Star.mp3
+  artifactKey: Guid(7e9db10007b953d40a6cae389cd5fade) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Music/Music/Smash Mouth - All Star.mp3 using Guid(7e9db10007b953d40a6cae389cd5fade) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '335584e4d4fcfae22f6d2d1e99c29241') in 0.072432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ShrekMaze/Models/Character/Textures/shrekball.jpeg
+  artifactKey: Guid(91a4647a7b47067428fb39ce03f86c63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Models/Character/Textures/shrekball.jpeg using Guid(91a4647a7b47067428fb39ce03f86c63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cdeb2800080c7e55262a1e0425d1423d') in 0.024103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ShrekMaze/Models/Character/PlayerAnimatorController.controller
+  artifactKey: Guid(1675a0223e08bc84398caa916205126a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Models/Character/PlayerAnimatorController.controller using Guid(1675a0223e08bc84398caa916205126a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62c5533537a5fa61ae15c99d27028ca4') in 0.014098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ShrekMaze/Sprites/Buttons/LGButton.png
+  artifactKey: Guid(26179a936dc8d7845b6d5aa173c01027) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Sprites/Buttons/LGButton.png using Guid(26179a936dc8d7845b6d5aa173c01027) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '017f0d5f17243cb8f4aa57fbc9a84ae4') in 0.026931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19be7c486f11b520c92f7c04a4ad88b6') in 0.027150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ShrekMaze/Scripts/Scripts/Shrek/HeroControll.cs
+  artifactKey: Guid(2736aa993905b474b8a0973248ac5283) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Scripts/Scripts/Shrek/HeroControll.cs using Guid(2736aa993905b474b8a0973248ac5283) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '225396c6d23734bf8e038d5847c66228') in 0.011998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ShrekMaze/Scenes/MainMenu.unity
+  artifactKey: Guid(614bb8e65342121428e55167103795ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Scenes/MainMenu.unity using Guid(614bb8e65342121428e55167103795ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8277479a919d4d21c1f5f48759a4259') in 0.011059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs
+  artifactKey: Guid(d412675cfb3441efa3bf8dcd9b7624dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs using Guid(d412675cfb3441efa3bf8dcd9b7624dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '143c0d3da7bbf9d224cd26477446f8f5') in 0.011100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ShrekMaze/Scripts/BulletCollisions.cs
+  artifactKey: Guid(c191afea958d9c444b082bcfab10e5ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Scripts/BulletCollisions.cs using Guid(c191afea958d9c444b082bcfab10e5ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c1b925c1e0716ad42949e40dede8cd1') in 0.009569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt
+  artifactKey: Guid(d2cf87a8a7a94aa8b80dff1c807c1178) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt using Guid(d2cf87a8a7a94aa8b80dff1c807c1178) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7fbb5ab8c460c6e7d2427d73745800f4') in 0.009243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs
+  artifactKey: Guid(1312ae25639a4bae8e25ae223209cc50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs using Guid(1312ae25639a4bae8e25ae223209cc50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9c5d3bd7507e82bce52c8a9c2f2c95b') in 0.010622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/ShrekMaze/Materials/Levels_3.mat
+  artifactKey: Guid(ab092223de239ce488d6ea659af595ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Materials/Levels_3.mat using Guid(ab092223de239ce488d6ea659af595ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2dcb525333a635e66ad30fa984e40998') in 0.012055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ShrekMaze/Prefabs/StartMenu/EventSystem.prefab
+  artifactKey: Guid(0fbd42bce8a2fcc429ae9add39fb654d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Prefabs/StartMenu/EventSystem.prefab using Guid(0fbd42bce8a2fcc429ae9add39fb654d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e5cde9f85fe0bfb82f8e0e61d1b3c37') in 0.014620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ShrekMaze/Prefabs/StartMenu/Main Camera.prefab
+  artifactKey: Guid(02d58f4af0ef3e5458979ccfb2db2125) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Prefabs/StartMenu/Main Camera.prefab using Guid(02d58f4af0ef3e5458979ccfb2db2125) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4fbd3610f4a54c9b64f55849b3d4100d') in 0.012989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ShrekMaze/Fantasy Forest Environment Free Sample/Textures/dirt01.tga
+  artifactKey: Guid(30ec70ef60a2bb54ea2df6f72c77bdc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ShrekMaze/Fantasy Forest Environment Free Sample/Textures/dirt01.tga using Guid(30ec70ef60a2bb54ea2df6f72c77bdc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b3cf14f3eecdcbd945a05cd87c780e0') in 0.021032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 30.558073 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b843021f5c49df789afe4d1241bbb4af') in 0.119503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+  artifactKey: Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf using Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294d8b1710dc942a6654edea9fab0fea') in 0.022654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ShrekMaze/Models/Character/Textures/shrekball.jpeg
+  artifactKey: Guid(91a4647a7b47067428fb39ce03f86c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShrekMaze/Models/Character/Textures/shrekball.jpeg using Guid(91a4647a7b47067428fb39ce03f86c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432c6748d2372e63e00dac1e57d3990c') in 0.020327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/ShrekMaze/Sprites/ShrekLogo.png
+  artifactKey: Guid(ea624c3ce7ef0f54e90ff1e44b89fffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShrekMaze/Sprites/ShrekLogo.png using Guid(ea624c3ce7ef0f54e90ff1e44b89fffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31db50233ed36c0f2ebda6e7af9be144') in 0.019718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ShrekMaze/Sprites/GameOver/Bold.png
+  artifactKey: Guid(ca470d798e9ef224fa94c692955b5e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShrekMaze/Sprites/GameOver/Bold.png using Guid(ca470d798e9ef224fa94c692955b5e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7733a5862d2e18bf840b0e683859faf') in 0.017423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ShrekMaze/Terrains/New Terrain.asset
+  artifactKey: Guid(31b4c0eac847650409f8c1c71c05584f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShrekMaze/Terrains/New Terrain.asset using Guid(31b4c0eac847650409f8c1c71c05584f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eeaade97228208eecf28552ef8473fb') in 0.023690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ShrekMaze/Models/Prefabs/Bush_1/bush/bush_diffuseOriginal.png
+  artifactKey: Guid(269ef1573485c7d4d8b58a4217949630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShrekMaze/Models/Prefabs/Bush_1/bush/bush_diffuseOriginal.png using Guid(269ef1573485c7d4d8b58a4217949630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c15f72576f81b7bec53b2b8655726ca') in 0.021439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ShrekMaze/Sprites/Shrek.png
+  artifactKey: Guid(99ad532892e197c4fab7eb14068ba871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShrekMaze/Sprites/Shrek.png using Guid(99ad532892e197c4fab7eb14068ba871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585f0f84904840192f0b846547b8e0e5') in 0.015914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ShrekMaze/Models/Bonus/Textures/lambert2_albedo.jpeg
+  artifactKey: Guid(e21bdb7de462da44a9e569b332e5ac6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShrekMaze/Models/Bonus/Textures/lambert2_albedo.jpeg using Guid(e21bdb7de462da44a9e569b332e5ac6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9f0b4151101bab347614b52edc8749') in 0.020015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ShrekMaze/Fantasy Forest Environment Free Sample/Textures/grass01_b.tga
+  artifactKey: Guid(b69992f31e7145e4ba49aa8118c5541c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShrekMaze/Fantasy Forest Environment Free Sample/Textures/grass01_b.tga using Guid(b69992f31e7145e4ba49aa8118c5541c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6a2e8a412517de8b877703d42c9574') in 0.018096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ShrekMaze/Models/Prefabs/Bush_2/Part11_diff.png
+  artifactKey: Guid(858355530c75ec44ba50923b0f97a65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShrekMaze/Models/Prefabs/Bush_2/Part11_diff.png using Guid(858355530c75ec44ba50923b0f97a65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da988962460c0eb4d1dcbd5609b1659c') in 0.025370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ShrekMaze/Models/Prefabs/Toilet/textures/lambert1_roughness.jpg
+  artifactKey: Guid(95a6fdaa5a8b23149a598fa32a520d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShrekMaze/Models/Prefabs/Toilet/textures/lambert1_roughness.jpg using Guid(95a6fdaa5a8b23149a598fa32a520d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e608ffa35ae19fb888901a3c31ee2b1') in 0.017577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd
+  artifactKey: Guid(fd09957580ac4326916010f1f260975b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd using Guid(fd09957580ac4326916010f1f260975b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05626617ee865dbadeeaffddf0330526') in 0.013579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShrekMaze/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8de7f154848addb77f542bc0adac9e') in 0.021255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 2.942337 seconds.
+  path: Assets/ShrekMaze/Models/Enemy/Enemy_1/source/TreePrefMat 1.png
+  artifactKey: Guid(89c4614c5bc9b374492dbbb00add53bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShrekMaze/Models/Enemy/Enemy_1/source/TreePrefMat 1.png using Guid(89c4614c5bc9b374492dbbb00add53bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18601439f14fec59a876a4a3a04009ed') in 0.030035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ShrekMaze/Sprites/YouWin.png
+  artifactKey: Guid(79a93756b53416f4cbc41992b09bc493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShrekMaze/Sprites/YouWin.png using Guid(79a93756b53416f4cbc41992b09bc493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ceb362aef106b5a7d5f3cb8bf50bdb') in 0.012719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (400.1 KB). Loaded Objects now: 3707.
+Memory consumption went from 76.5 MB to 76.1 MB.
+Total: 5.395600 ms (FindLiveObjects: 0.433600 ms CreateObjectMapping: 0.127300 ms MarkObjects: 4.587500 ms  DeleteObjects: 0.245900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
