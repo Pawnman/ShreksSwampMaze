@@ -54,92 +54,92 @@
 
 <p></p>
   
-<p>UI относительно минималистичный, по аналогии с оригиналом, но с наличием кнопок.</p>
-<p>Визуальный стиль уровней соответствует стилистике мультипликационного мультфильма: природный ландшафт, узнаваемая модель игрока и соответствующие по стилистике модели врагов, старта и финиша. Стены лабиринта визуально представляют из себя растительность (кусты).</p>
+<p>The UI is relatively minimalistic, similar to the original, but with buttons.</p>
+<p>The visual style of the levels corresponds to the style of a cartoon: natural landscape, recognizable model of the player and corresponding models of enemies, start and finish. The walls of the labyrinth visually represent vegetation (bushes).</p>
 
 <p></p>
 <figure>
    <img src="./Pictures/Pic_4.png" width="800"/>
-   <figcaption>Рисунок 4 - 3D модели игрока, старта и финиша, врагов и бонусов</figcaption>
+   <figcaption>Picture 4 - 3D models of the player, start and finish, enemies and bonuses</figcaption>
   </figure>
 
 <p></p>
 
-<h2>Жизненный цикл:</h2>
+<h2>Life cycle:</h2>
 <ol>
-  <li>Запуск/начало игры по нажатию на кнопку «START» в стартовом меню.</li>
-  <li>Экран с сюжетом/предысторией, описанием управления и кнопкой с переходом к уровню с лабиринтом.</li>
-  <li>Прохождение лабиринта от точки «СТАРТ» до точки «ФИНИШ», избегание вражеских существ, «пугание» вражеских существ, сбор бонусов в виде табличек.
+  <li>Launch/start the game by pressing the «START» button in the start menu.</li>
+  <li>Screen with plot/backstory, control description and button to go to the maze level.</li>
+  <li>Passing the labyrinth from the START point to the FINISH point, avoiding enemy creatures, «scaring» enemy creatures, collecting bonuses in the form of signs.
 </li>
-  <li>Игрок проигрывает (кончаются жизни) при прикосновении к вражескому существу, включается экран с проигрышем и предложением начать игру заново, нажав на кнопку «RESTART». Происходит переход на пункт 1.
+  <li>The player loses (runs out of lives) when touching an enemy creature, a screen with a loss and an offer to start the game over by pressing the «RESTART» button is displayed. The transition to point 1 occurs.
 </li>
-  <li>Игрок выигрывает при успешном достижении точки «ФИНИШ». Включается экран «Ты выиграл», на котором показываются заработанные очки, а также предлагается еще раз пройти игру заново по нажатию на кнопку «RESTART». Происходит переход на пункт 1.
+  <li>The player wins when he successfully reaches the «FINISH» point. The «You won» screen is activated, showing the points earned, and also offering to play the game again by pressing the «RESTART» button. The transition to point 1 occurs.
 </li>
 </ol>
 
-<h2>Механики и фичи:</h2>
-<h3><u>Core-механики:</u></h3>
+<h2>Mechanics and features:</h2>
+<h3><u>Core mechanics:</u></h3>
 <ul>
-  <li>Игрок управляется нажатием на клавиши W, A, S, D.</li>
-  <li>Игрок «пугает» при нажатии на клавишу Q.
+  <li>The player is controlled by pressing the keys W, A, S, D.</li>
+  <li>The player «scares» by pressing the Q key.
 </li>
-  <li>Игрок перемещается по лабиринту, не проходя сквозь его стены и вражеских существ.
+  <li>The player moves through the labyrinth without passing through its walls and enemy creatures.
 </li>
-  <li>Игрок проигрывает (теряет жизни) при прикосновении к вражескому существу.
+  <li>A player loses (lives) when touching an enemy creature.
 </li>
-  <li>При приближении игрока статический враг поворачивается в сторону игрока и пытается его атаковать.
+  <li>When a player approaches, the static enemy turns towards the player and attempts to attack him.
 </li>
-  <li>Статический враг погибает при попадании в него «крика».
+  <li>A static enemy dies when hit by a «scream».
 </li>
-  <li>Динамический враг патрулирует часть коридоров лабиринта по заданному маршруту.
+  <li>A dynamic enemy patrols part of the labyrinth corridors along a given route.
 </li>
-  <li>Динамический враг погибает при попадании в него «крика».
+  <li>A dynamic enemy dies when hit by a «scream».
 </li>
-  <li>При нажатии на клавишу Q из игрока вылетает «крик», который при попадании во вражеское существо отнимает у него жизни.
+  <li>Pressing the Q key causes the player to emit a «scream» that, when it hits an enemy creature, takes away its life.
 </li>
     </ul>
 
-<h3><u>Additional-механики:</u></h3>
+<h3><u>Additional-mechanics:</u></h3>
 <ul>
-  <li>Игрок собирает бонусы в виде табличек и получает за это очки.
+  <li>The player collects bonuses in the form of signs and receives points for this.
 </li>
-  <li>При достижении финиша игрок переносится на следующий уровень.
+  <li>Upon reaching the finish line, the player is transferred to the next level.
 
   <li><ul>
-    <li>1 уровень – все враги статичны и чтобы пройти уровень их необходимо «напугать».
+    <li>Level 1 – all enemies are static and to pass the level you need to «scare» them.
 </li>
-    <li>2 уровень (стелс) – все враги динамичные и перемещаются по лабиринту, но атаковать их нельзя, а можно только-лишь избегать их в других частях лабиринта.
+    <li>Level 2 (stealth) – all enemies are dynamic and move around the labyrinth, but you cannot attack them, you can only avoid them in other parts of the labyrinth.
 </li>
-    <li>3 уровень – враги статичные и динамичные, которых можно «пугать».
+    <li>Level 3 – static and dynamic enemies that can be «scared».
 </li>
  </ul>   
 
-  <li>Динамичный враг перемещается не по заданному пути, а между определенными точками в случайном порядке, самостоятельно выбирая кратчайший путь.
+  <li>The dynamic enemy does not move along a set path, but between certain points in a random order, independently choosing the shortest path.
 </li>
-  <li>При нахождении игрока на близком расстоянии динамический враг начинает его преследовать, отклоняясь от своего маршрута.
+  <li>When the player is at close range, the dynamic enemy begins to pursue him, deviating from its route.
 </li>
-  <li>При нахождении игрока на очень близком расстоянии от динамического врага враг начинает его атаковать.
+  <li>When the player is very close to a dynamic enemy, the enemy will begin to attack him.
 </li>
-  <li>Начисление очков за «испуг» вражеского существа.
+  <li>Score points for «scaring» an enemy creature.
 </li>
     </ul>
 
-<h3><u>Juice-механики:</u></h3>
+<h3><u>Juice mechanics:</u></h3>
 <ul>
-  <li>Игрок не может завершить уровень до тех пор, пока не соберет все бонусы и/или не «испугает» всех вражеских существ.
+  <li>The player cannot complete the level until he collects all the bonuses and/or «scares» all the enemy creatures.
 </li>
-  <li>Перемещение/толкание предметов в лабиринте подобно игре «Sokoban».
+  <li>Moving/pushing objects in a maze is similar to the game «Sokoban».
 </li>
-  <li>Добавление предметов, которые можно перемещать по лабиринту.
+  <li>Adding objects that can be moved around the maze.
 </li>
-  <li>Добавление нового уровня, в котором присутствует механика перемещения предметов.
+  <li>Adding a new level that features object movement mechanics.
 </li>
 </ul>
 
 <h2>Билд:</h2>
-<p>Билд проекта можно скачать по следующей ссылке:</p>
+<p>The project build can be downloaded from the following link:</p>
 <href>https://drive.google.com/drive/folders/1vqVZ-kQntSPhnt7hrg3ffa7bEabEGP9F?usp=sharing</href>
-<h2>Инструкция по запуску:</h2>
-<p>1. Скачать билд проекта по ссылке.</p>
-<p>2. Разархивировать скачанные файлы, если они скачались архивом.</p>
-<p>3. Запустить ShrekMaze3D.exe.</p>
+<h2>Launch instructions:</h2>
+<p>1. Download the project build from the link.</p>
+<p>2. Unzip the downloaded files if they were downloaded as an archive.</p>
+<p>3. Launch ShrekMaze3D.exe.</p>
