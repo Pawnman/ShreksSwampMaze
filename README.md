@@ -136,7 +136,7 @@
 </li>
 </ul>
 
-<h2>Билд:</h2>
+<h2>Build:</h2>
 <p>The project build can be downloaded from the following link:</p>
 <href>https://drive.google.com/drive/folders/1vqVZ-kQntSPhnt7hrg3ffa7bEabEGP9F?usp=sharing</href>
 <h2>Launch instructions:</h2>
