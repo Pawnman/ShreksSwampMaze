@@ -1,29 +1,29 @@
 <h1>Shrek’s Swamp Maze</h1>
-<p>Прохождение лабиринта с вражескими существами.</p>
+<p>Passing the labyrinth (maze) with enemy creatures.</p>
 <ul>
   <li>Windows</li>
-  <li>Альбомная ориентация</li>
+  <li>Landscape orientation</li>
 </ul>
 
-<h2>Концепция:</h2>
-<p>Проект представляет из себя лабиринт-бродилку в стилистике мультипликационного мультфильма «Шрек». </p>
+<h2>Concept:</h2>
+<p>The project is a labyrinth-walker in the style of the animated film "Shrek". </p>
 
-<p>Главному герою-огру необходимо срочно добраться до места для сверх уединения, но он обнаруживает, что его родное и тихое болото захватили какие-то непонятные деревоподобные существа.</p>
+<p>The main character, an ogre, urgently needs to get to a place of extreme solitude, but he discovers that his native and quiet swamp has been captured by some strange tree-like creatures.</p>
 
-<p>Управляя главным героем, необходимо добраться до заветного места, прогоняя незванных гостей и вежливо прося (громким криком) их покинуть частную территорию. Но нужно быть осторожным, так как они выглядят весьма недружелюбно настроенными на конструктивный диалог.</p>
+<p>Controlling the main character, you need to get to the desired place, driving away uninvited guests and politely asking (by shouting loudly) them to leave the private territory. But you need to be careful, as they look very unfriendly to constructive dialogue.</p>
 
-<p>При достижении финиша Шрек проходит уровень лабиринта и выигрывает, а при получении урона (весомых аргументов против утверждений Шрека) от непрошенного гостя – теряет здоровье и проигрывает.</p>
+<p>Upon reaching the finish line, Shrek passes the maze level and wins, and upon receiving damage (weighty arguments against Shrek's claims) from an uninvited guest, he loses health and loses.</p>
 
-<p>Для того, чтобы быть более убедительным во время объяснения, что это частная территория, - необходимо собирать таблички «Осторожно! Злой огр!». Чем больше табличек собрано, тем лучше.</p>
+<p>In order to be more convincing when explaining that this is private territory, it is necessary to collect signs saying "Caution! Evil Ogre!" The more signs collected, the better.</p>
 
-<h2>Референс и визуальный стиль:</h2>
-<p>В качестве референса выступает собственный проект на аналогичную тематику, реализованный в визуальной среде программирования Scratch:</p>
+<h2>Reference and visual style:</h2>
+<p>The reference is our own project on a similar topic, implemented in the visual programming environment Scratch:</p>
 <href>https://scratch.mit.edu/projects/933567218</href>
 
 <p></p>
 <figure>
    <img src="./Pictures/Pic_1.png" width="800"/>
-   <figcaption>Рисунок 1 - UI оригинала Scratch-проекта</figcaption>
+   <figcaption>Picture 1 - UI of the original Scratch project</figcaption>
   </figure>
 
 <p></p>
@@ -31,7 +31,7 @@
 <p></p>
 <figure>
    <img src="./Pictures/Pic_2.png" width="800"/>
-   <figcaption>Рисунок 2 - Дизайн уровней Scratch-проекта</figcaption>
+   <figcaption>Picture 2 - Scratch project level design</figcaption>
   </figure>
 
 <p></p>
@@ -39,17 +39,17 @@
 
 
 
-<p>Однако текущая реализация проекта предусматривает 3D визуализацию:</p>
+<p>However, the current implementation of the project involves 3D visualization:</p>
 <ul>
-  <li>3D модели игрока, врагов, старта и финиша, бонусов, а также уровня лабиринта.</li>
-  <li>Камера статична и смотрит на уровень сверху под углом.</li>
-  <li>Для того, чтобы все места нахождения врагов и бонусов были видны, ограничительные стены лабиринта будут визуально ниже роста героя и врагов.</li> 
+  <li>3D models of the player, enemies, start and finish, bonuses, and the maze level.</li>
+  <li>The camera is static and looks down at the level from above at an angle.</li>
+  <li>In order for all locations of enemies and bonuses to be visible, the boundary walls of the labyrinth will be visually lower than the height of the hero and enemies.</li> 
 </ul>
 
 <p></p>
 <figure>
    <img src="./Pictures/Pic_3.png" width="800"/>
-   <figcaption>Рисунок 3 - Пример расположения камеры</figcaption>
+   <figcaption>Picture 3 - Example of camera placement</figcaption>
   </figure>
 
 <p></p>
